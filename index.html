@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripple-CT | Track Your Donation's Journey</title>
+    <meta name="description" content="Donate items, track their journey, and watch your generosity create ripples that last a lifetime.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0891b2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 3rem;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 48px;
+            line-height: 1.6;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 16px;
+            padding: 40px;
+            color: #1e293b;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+            margin-bottom: 40px;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            color: #0369a1;
+        }
+
+        .features {
+            display: grid;
+            gap: 24px;
+            text-align: left;
+        }
+
+        .feature {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #0369a1, #0891b2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 1.5rem;
+        }
+
+        .feature-text h3 {
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+            color: #1e293b;
+        }
+
+        .feature-text p {
+            color: #64748b;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #0369a1, #0891b2);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(3,105,161,0.3);
+        }
+
+        .footer {
+            margin-top: 48px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.75rem; }
+            .tagline { font-size: 1rem; }
+            .card { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌊</div>
+        <h1>Ripple-CT</h1>
+        <p class="tagline">
+            Donate items you no longer need. We pick them up, sell them, and you watch
+            the entire journey. Every item gets a digital passport that travels with it forever.
+        </p>
+
+        <div class="card">
+            <h2>How It Works</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📦</div>
+                    <div class="feature-text">
+                        <h3>Schedule a Pickup</h3>
+                        <p>Tell us what you're donating and we'll come get it. Free pickup in the Connecticut area.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏷️</div>
+                    <div class="feature-text">
+                        <h3>Every Item Gets Tracked</h3>
+                        <p>Each item receives a unique QR code. Scan anytime to see its complete journey.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <div class="feature-text">
+                        <h3>Watch the Ripples</h3>
+                        <p>Get updates when your item is listed, sold, and shipped. See who it helps next.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">♻️</div>
+                    <div class="feature-text">
+                        <h3>A Lifetime Record</h3>
+                        <p>New owners can claim items and continue the story. Track repairs, re-donations, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="mailto:hello@ripple-ct.com" class="cta">Get in Touch</a>
+
+        <div class="footer">
+            <p>Ripple-CT &copy; 2025 | Creating ripples of generosity</p>
+        </div>
+    </div>
+</body>
+</html>
